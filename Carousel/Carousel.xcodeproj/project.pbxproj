@@ -13,6 +13,8 @@
 		E93E7929279A9A5300531523 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E93E7927279A9A5300531523 /* Main.storyboard */; };
 		E93E792B279A9A5500531523 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E93E792A279A9A5500531523 /* Assets.xcassets */; };
 		E93E792E279A9A5500531523 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E93E792C279A9A5500531523 /* LaunchScreen.storyboard */; };
+		E93E793D279A9EEA00531523 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E93E793B279A9EEA00531523 /* CollectionViewCell.swift */; };
+		E93E793E279A9EEA00531523 /* CollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E93E793C279A9EEA00531523 /* CollectionViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		E93E792A279A9A5500531523 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E93E792D279A9A5500531523 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E93E792F279A9A5500531523 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E93E793B279A9EEA00531523 /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		E93E793C279A9EEA00531523 /* CollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CollectionViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +63,8 @@
 				E93E7935279A9A8C00531523 /* AppDelegate */,
 				E93E7936279A9A9600531523 /* Resources */,
 				E93E7925279A9A5300531523 /* ViewController.swift */,
+				E93E793B279A9EEA00531523 /* CollectionViewCell.swift */,
+				E93E793C279A9EEA00531523 /* CollectionViewCell.xib */,
 			);
 			path = Carousel;
 			sourceTree = "<group>";
@@ -143,6 +149,7 @@
 			files = (
 				E93E792E279A9A5500531523 /* LaunchScreen.storyboard in Resources */,
 				E93E792B279A9A5500531523 /* Assets.xcassets in Resources */,
+				E93E793E279A9EEA00531523 /* CollectionViewCell.xib in Resources */,
 				E93E7929279A9A5300531523 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -156,6 +163,7 @@
 			files = (
 				E93E7926279A9A5300531523 /* ViewController.swift in Sources */,
 				E93E7922279A9A5300531523 /* AppDelegate.swift in Sources */,
+				E93E793D279A9EEA00531523 /* CollectionViewCell.swift in Sources */,
 				E93E7924279A9A5300531523 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
